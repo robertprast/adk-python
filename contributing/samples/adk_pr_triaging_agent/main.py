@@ -32,6 +32,7 @@ logs.setup_adk_logger(level=logging.DEBUG)
 
 
 async def main():
+  print("FINDME")
   runner = InMemoryRunner(
       agent=agent.root_agent,
       app_name=APP_NAME,
